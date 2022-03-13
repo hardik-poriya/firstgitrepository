@@ -20,9 +20,7 @@ public class Test{
 		
 		List<Integer> list = new ArrayList<Integer>();
 		for(int i=0;i<queries.size();i++){
-			try{
-				System.out.println(queries.get(i)-1);
-				
+			try{				
 				list.add(temp.get(queries.get(i)-1));
 			} catch (Exception e){
 				list.add(-1);
